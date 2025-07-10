@@ -30,3 +30,20 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+
+.media-centered {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto;
+  max-width: 100%;
+}
+
+.media-centered iframe,
+.media-centered img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
